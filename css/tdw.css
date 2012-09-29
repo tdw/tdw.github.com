@@ -1,0 +1,272 @@
+body {
+	font-family: Verdana, sans-serif;
+	border-top: solid 4px #111111 !important;
+}
+
+.intro {
+	font-size: 2em;
+	margin
+}
+
+.subtitle {
+	color: #cccccc;
+}
+
+h1.title {
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: -0.06em;
+	margin-bottom: 0.3em;
+	text-shadow: 3px 3px 10px #CCCCCC;
+}
+
+/** Box & Divs */
+
+.disclaimer {
+	background-color: #E5ECF9;
+	color: #666666;
+	font-family: "baskerville","warnock pro","goudy old style","palatino","book antiqua",georgia,serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 2em;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin-bottom: 1.5em;
+	padding: 1.5em;
+}
+
+.regularbox {
+	-webkit-box-shadow: 0 6px 8px -6px black;
+	-moz-box-shadow: 0 6px 8px -6px black;
+	box-shadow: 0 6px 8px -6px black;
+	padding: 5px;
+}
+
+.regularbox h3 {
+	color: #666666;
+}
+
+.strongbox {
+	padding: 10px;
+	background-color: #004480;
+	color: white;
+	letter-spacing: 0.02em;
+	font-size: 2em;
+	font-style: italic;
+	font-family: "baskerville","warnock pro","goudy old style","palatino","book antiqua",georgia,serif;
+	margin-top: 0.5em;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.regularbox ul {
+	list-style-type: none;
+}
+/** Header & Navigation */
+
+header {
+	margin-bottom: 5em !important;
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: bold;
+    letter-spacing: -0.06em;
+    margin: 0;
+    text-shadow: 3px 3px 10px #CCCCCC;
+}
+
+header nav {
+	text-align: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding-bottom: 2em;
+}
+
+header nav li:first-child {
+    border: medium none;
+    margin-right: 0;
+    padding-right: 0;
+}
+header nav li {
+    border-left: 1px solid #CCCCCC;
+    display: inline;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0 0 0 0.25em;
+    padding: 0 0.75em;
+    text-align: right;
+    white-space: pre;
+}
+
+a.current {
+	color: #111111;
+}
+
+/** Workshops */
+
+.workshop {
+	margin-top: 4em;	
+}
+
+.workshop h1 {
+	text-transform: uppercase;
+}
+
+.workshop.right h1 {
+	float: right;
+}
+
+.workshop.left h1 {
+	float: left;
+}
+
+.workshop.right ul {
+	float: right;
+}
+
+.workshop.left ul {
+	float: left;
+}
+
+/** Team */
+
+.member {
+	margin-bottom: 3em;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	padding: 0.5em;
+}
+
+.bio h1 {
+	color: #666666;
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: -0.06em;
+	margin-bottom: 0.3em;
+	text-shadow: 3px 3px 10px #CCCCCC;	
+}
+
+.photo img {
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 4px #000000;
+	margin-top: 0.2em;
+	width: 100px;
+}
+
+/** Ecosystem */
+
+.ecosystem-item {
+	border: 1px solid #DDDDDD;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+	display: block;
+	line-height: 20px;
+	padding: 4px;
+}
+
+.ecosystem-item img {
+	display: block;   
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.smaller {
+	width: 150px;
+}
+
+.ecosystem-item div {
+	color: #555555;
+	padding: 9px;
+}
+
+/** Resources */
+
+#books {
+	width:600px;
+	height:350px;
+	position:relative;
+}
+
+
+#slides {
+	position:absolute;
+	top:15px;
+	left:200px;
+	z-index:100;
+}
+
+.slides_container {
+	width:570px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+.slides_container a {
+	width:570px;
+	height:270px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+#books-frame {
+    height: 341px;
+    left: 115px;
+    position: absolute;
+    top: -3px;
+    width: 739px;
+    z-index: 0;
+}
+
+

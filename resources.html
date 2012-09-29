@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="refresh" content="30">
+	<title>Test Driven Workshops</title>
+	<meta name="author" content="Simon Caplette">
+	<link rel="stylesheet" href="css/tdw.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 5000,
+				pause: 2000,
+				hoverPause: true
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="span-24">
+			<header>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="workshops.html">Our Workshops</a></li>
+						<li><a href="team.html">Our Team</a></li>
+						<li><a class="current" href="resources.html">Our Resources</a></li>
+						<li><a href="ecosystem.html">Ecosystem</a></li>
+					</ul>
+					<h1>Test Driven Workshops</h1>	
+					<h2 class="quiet">Making your developers agile & happy</h2>	
+				</nav>
+			</header>
+		</div>
+	</div>
+	<div class="container">	
+		<div class="span-24">
+			<div class="span-16">
+				<h1 class="title">Our Github</h1>
+				<p class="large">All our workshop material is open and available from our <a href="https://github.com/organizations/Test-Driven-Workshops">Github repo</a></p>
+			</div>
+			<div class="span-3 last"><img src="img/github-logo.jpg">
+			</div>			
+		</div>
+		
+		<div class="span-24">
+			<h1 class="title">Other resources</h1>
+			<h2>Books</h2>
+			<div id="books">
+				<div id="slides">
+				        <div class="slides_container">
+							<a href="http://www.amazon.fr/Test-Driven-Development-By-Example/dp/0321146530" target="_blank"><img src="img/tdd-beck-book.jpg" width="300" height="300"></a>
+							<a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/" target="_blank"><img src="img/clean-code-book.gif" width="250" height="360"></a>
+							<a href="http://www.amazon.com/RSpec-Book-Behaviour-Development-Cucumber/dp/1934356379" target="_blank"><img src="img/rspec-book.jpg" width="300" height="300"></a>
+							<a href="http://www.amazon.fr/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073" target="_blank"><img src="img/clean-coder-book.jpg" width="300" height="300"></a>
+		            	</div>
+						<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+						<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+		        </div>
+				<img src="img/example-frame.png" width="739" height="341" id="books-frame">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
